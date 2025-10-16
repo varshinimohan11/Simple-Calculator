@@ -1,2 +1,28 @@
-# Simple-Calculator
-Simple Calculator program is a basic Python application that performs fundamental arithmetic operations such as addition, subtraction, multiplication, and division. It allows the user to input two numbers and choose the desired operation from a menu. Based on the user’s selection, the program processes the calculation and displays the result. This project demonstrates the use of conditional statements (if-elif-else), user input, and basic mathematical operators in Python. It serves as an excellent beginner project for understanding how logic and computation work together in programming. The calculator provides an interactive way to perform quick calculations while showcasing core Python concepts like functions, input handling, and decision-making.
+# 🧮 Simple Calculator (Python)
+
+A basic command-line calculator built in **Python** that can **add, subtract, multiply, and divide** using user-defined functions.  
+This project demonstrates the use of functions, conditionals, and user input handling — perfect for beginners learning Python.
+
+---
+
+## 🚀 Features
+
+- Four basic arithmetic operations:
+  - ➕ Addition
+  - ➖ Subtraction
+  - ✖️ Multiplication
+  - ➗ Division
+- Uses **functions** for each operation
+- Simple **menu-driven interface**
+- Handles integer inputs
+
+---
+
+## 🧩 Code Overview
+
+The program defines four functions:
+```python
+def add(x, y): return x + y
+def subtract(x, y): return x - y
+def multiply(x, y): return x * y
+def divide(x, y): return x / y
